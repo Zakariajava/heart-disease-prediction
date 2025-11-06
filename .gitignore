@@ -1,0 +1,30 @@
+# artifacts & outputs
+artifacts/**
+!artifacts/.gitkeep
+
+# processed data (si prefieres ignorarlos fuera de artifacts)
+*.parquet
+*.pt
+*.png
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# envs
+.env
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
